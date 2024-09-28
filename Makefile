@@ -1,5 +1,5 @@
 SRC=$(wildcard *.c)
-CFLAGS = -Wall -pedantic
+CFLAGS = -Wall -pedantic -g -O0
 
 %: %.c
 	 $(CC) $(CFLAGS) $< -o $@.out
