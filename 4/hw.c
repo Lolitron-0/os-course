@@ -18,7 +18,6 @@ int main() {
     printf("Can\'t fork child\n");
     exit(-1);
   } else if (child_pid > 0) {
-
     /* Parent process */
 
     if (close(fd[1]) < 0) {
