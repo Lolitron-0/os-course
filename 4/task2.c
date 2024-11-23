@@ -8,7 +8,6 @@ int main() {
   int fd[2], child_pid;
 
   size_t size;
-
   if (pipe(fd) < 0) {
     printf("Can\'t open pipe\n");
     exit(-1);

@@ -5,7 +5,7 @@
 			"name": "(lldb) Launch",
 			"type": "lldb",
 			"request": "launch",
-			"program": "${workspaceFolder}/4/task2.out",
+			"program": "${workspaceFolder}/hw3/hw3boat.out",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",
