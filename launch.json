@@ -5,7 +5,7 @@
 			"name": "(lldb) Launch",
 			"type": "lldb",
 			"request": "launch",
-			"program": "${workspaceFolder}/hw3/hw3boat.out",
+			"program": "${workspaceFolder}/15/sym_depth.out",
 			"args": [],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",

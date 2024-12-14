@@ -57,7 +57,6 @@ int main(void) {
       perror("Can\'t send message to queue\n");
       msgctl(msqid, IPC_RMID, (struct msqid_ds *)NULL);
       exit(-1);
-
     }
     printf("sent a\n");
 
